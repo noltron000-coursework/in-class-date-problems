@@ -52,5 +52,7 @@ const sortPastPresFutu = (date_list) => {
 }
 
 console.log(measureTime(wasteTime, [1000]))
+console.log()
 console.log(orderDates([new Date(), new Date('10/12/88'), new Date('4/21/42'), new Date('9/2/90')]))
+console.log()
 console.log(sortPastPresFutu([new Date(), new Date('10/12/88'), new Date('4/21/42'), new Date('9/2/90')]))
